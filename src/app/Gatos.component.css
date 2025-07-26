@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.galeria {
+     @apply grid grid-cols-7 gap-[16px] p-[20px];
+}
+
+.tituloConteudo {
+     @apply bg-[#9d4edd] p-2;
+}
+
+.titulo {
+     @apply text-center text-[35px];
+}
+
+.cardFoto {
+     @apply cursor-pointer text-center bg-[#be1a92] rounded-[15px] overflow-hidden transition-transform duration-200 ease-in-out text-white font-bold;
+}
+
+.cardFoto:hover {
+     @apply scale-[1.08];
+}
+
+.cardFoto img {
+     @apply w-full h-[120px] object-cover block;
+}
+
+.modal {
+     @apply fixed top-0 left-0 w-full h-full bg-[#00000090] flex justify-center items-center z-1000;
+}
+
+.conteudoModal {
+     @apply bg-[#b051cd] p-[20px] rounded-[15px] text-center text-[20px] text-white font-bold;
+}
+
+.conteudoModal img {
+     @apply max-w-[90vw] max-h-[60vh] mb-[10px] rounded-[20px];
+}
+
+button {
+     @apply mt-[10px] p-2 border-none bg-[#07e816] text-black rounded-[10px] cursor-pointer;
+}
+
+button:hover {
+     @apply bg-[aqua];
+}

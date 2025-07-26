@@ -1,0 +1,16 @@
+<main>
+     <div class="tituloConteudo">
+          <h1 class="titulo">😻 API de gatos - Feita por Lucas Boaratti 😻</h1>
+     </div>
+     <section class="galeria">
+          <section class="cardFoto" *ngFor="let foto of fotos" (click)="openModal(foto)"> <!-- Realizando um loop pela lista de fotos da API, com a diretiva do Angular (*ngFor="let photo of photos") e um evento que chama a função openModal(), passando a foto clicada ((click)="openModal(photo)") -->
+               <img [src]="foto.url" alt="Foto de um gatinho(a) fofo!"> <!-- Exibe a foto -->
+          </section>
+          <section class="modal" *ngIf="fotoSelecionada" (click)="closeModal()"> <!-- Modal só irá aparecer se selectedPhoto não for nulo (*ngIf="selectedPhoto") e ao clicar fora, o modal é fechado (closeModal()) -->
+               <section class="conteudoModal" (click)="$event.stopPropagation()"> <!-- Aqui, impede que o clique dentro do modal, feche o próprio modal (stopPropagation()) -->
+                    <img [src]="fotoSelecionada.url" alt="Foto de um gatinho(a) fofo!">
+                    <button (click)="closeModal()">Fechar</button>
+               </section>
+          </section>
+     </section>
+</main>
