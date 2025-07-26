@@ -1,59 +1,31 @@
-# InicioAngular
+# Galeria de Imagens
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
+Esse é o meu primeiro projeto desenvolvido em Angular, que consome uma API de fotos e exibe as 50 primeiras fotos para o usuário.
 
-## Development server
+# Como usar o projeto:
 
-To start a local development server, run:
+1. Baixe o projeto clicando em Code e indo em Download ZIP;
+
+2. Após baixar o arquivo ZIP, extraia a pasta do projeto na área de trabalho ou em documentos;
+
+3. Abra o VSCode e faça o seguinte atalho: CTRL + K, CTRL O, e escolha a pasta do projeto;
+
+4. Após abrir o projeto, abra o terminal e rode o servidor:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+E pronto! Agora aprecie as imagens :D
 
-## Code scaffolding
+# Linguagens/Frameworks:
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## FrontEnd
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<div style="display: flex;">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" alt="Angular" title="Angular" width="70px" height="70px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" width="70px" height="70px"/>        
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="TailWind" title="TailWind" width="70px" height="70px"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS" title="CSS" width="70px" height="70px"/>        
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML" title="HTML" width="70px" height="70px"/>
+</div>
