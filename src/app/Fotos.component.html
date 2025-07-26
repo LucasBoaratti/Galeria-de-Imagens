@@ -1,5 +1,7 @@
 <main>
-     <h1 style="text-align: center;">API de fotos</h1>
+     <div class="tituloConteudo">
+          <h1 class="titulo">API de fotos - Feita por Lucas Boaratti</h1>
+     </div>
      <section class="galeria">
           <section class="cardFoto" *ngFor="let foto of fotos" (click)="openModal(foto)"> <!-- Realizando um loop pela lista de fotos da API, com a diretiva do Angular (*ngFor="let photo of photos") e um evento que chama a função openModal(), passando a foto clicada ((click)="openModal(photo)") -->
                <img [src]="foto.download_url" [alt]="foto.author"> <!-- Exibe a foto -->
