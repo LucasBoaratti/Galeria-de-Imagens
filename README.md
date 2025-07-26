@@ -1,6 +1,6 @@
-# Galeria de Imagens
+# Gatucas
 
-Esse é o meu primeiro projeto desenvolvido em Angular, que consome uma API de fotos e exibe as 50 primeiras fotos para o usuário.
+Esse é o meu primeiro projeto desenvolvido em Angular, que consome uma API de gatos e exibe as 50 primeiras fotos para o usuário caso ele use a chave da API criada, senão usar, exibe apenas as 10 primeiras fotos.
 
 # Como usar o projeto:
 
@@ -10,13 +10,25 @@ Esse é o meu primeiro projeto desenvolvido em Angular, que consome uma API de f
 
 3. Abra o VSCode e faça o seguinte atalho: CTRL + K, CTRL O, e escolha a pasta do projeto;
 
-4. Após abrir o projeto, abra o terminal e rode o servidor:
+4. Agora, acesse o link: <a href="https://thecatapi.com">API de gatos</a> e escolha o plano grátis;
+
+5. Depois, insira seu email, explique como você vai usar a API e escolha o tipo do projeto que você vai utilizar sua chave. (escolha Personal Project);
+
+6. Após isso, verifique seu email que você cadastrou e lá, você encontrará a sua chave para acessar a API;
+
+7. Copie sua chave e cole no campo lá no arquivo Gatos.component.ts:
+
+```typescript
+api_key: string = ""; //Adicione a chave da sua API aqui, entre as aspas.
+```
+
+8. Após colar a chave da API, abra o terminal e rode o servidor:
 
 ```bash
 ng serve
 ```
 
-E pronto! Agora aprecie as imagens :D
+E pronto! Agora aprecie as imagens de gatinhos superfofos!!! :D
 
 # Linguagens/Frameworks:
 
