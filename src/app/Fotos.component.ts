@@ -21,7 +21,7 @@ export class ComponenteFotos implements OnInit {
 	constructor(private http: HttpClient) {} //Injetando o serviço HttpClient para fazer a requisição HTTP
 
 	ngOnInit() { //Método que roda o componente assim que o componente inicia
-		this.http.get<any[]>('https://picsum.photos/v2/list?page=1&limit=30') //Realizando uma requisição GET para a API
+		this.http.get<any[]>('https://picsum.photos/v2/list?page=1&limit=50') //Realizando uma requisição GET para a API
 			.subscribe(data => { //Aguarda o retorno da API (.subscribe)
 				this.fotos = data; //Atribui a resposta na variável fotos
 			});
