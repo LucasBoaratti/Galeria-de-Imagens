@@ -10,7 +10,7 @@ Esse é o meu primeiro projeto desenvolvido em Angular, que consome uma API de g
 
 3. Abra o VSCode e faça o seguinte atalho: CTRL + K, CTRL O, e escolha a pasta do projeto;
 
-4. Agora, acesse o link: <a href="https://thecatapi.com" target="_blank">API de gatos</a> e escolha o plano grátis;
+4. Agora, acesse o link: <a href="https://thecatapi.com">API de gatos</a> e escolha o plano grátis;
 
 5. Depois, insira seu email, explique como você vai usar a API e escolha o tipo do projeto que você vai utilizar sua chave. (escolha Personal Project);
 
